@@ -89,5 +89,9 @@ img {
 }
 
 .card-body {
-	padding-top: 0px !important;
+	padding-top: 8px !important;
+}
+
+.card-title {
+	font-size: 1.5rem;
 }

@@ -45,3 +45,7 @@ img {
 	background: rgba(241, 155, 207, 0.15);
 	border-radius: 50px;
 }
+
+.center {
+	text-align: center;
+}

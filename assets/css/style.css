@@ -49,3 +49,42 @@ img {
 .center {
 	text-align: center;
 }
+
+.bd-placeholder-img {
+	position: relative;
+	width: 95%;
+	height: 80%;
+	left: -10px;
+	top: 20px;
+}
+
+.color {
+	border: none !important;
+	border-top-left-radius: 400px !important;
+	border-bottom-left-radius: 100px !important;
+	border-top-right-radius: 50px !important;
+	border-bottom-right-radius: 50px !important;
+}
+
+.color1 {
+	background-color: #ebfffc !important;
+}
+
+.color2 {
+	background-color: #f4efff !important;
+}
+
+.color3 {
+	background-color: #fff6fb !important;
+}
+
+.color4 {
+	background-color: #f0faff !important;
+}
+
+.grid-card {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 10px;
+}

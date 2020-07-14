@@ -83,8 +83,11 @@ img {
 }
 
 .grid-card {
-	padding-top: 20px;
 	padding-bottom: 10px;
 	padding-right: 5px;
 	padding-left: 10px;
+}
+
+.card-body {
+	padding-top: 0px !important;
 }

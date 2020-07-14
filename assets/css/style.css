@@ -1,0 +1,47 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	color: black !important;
+}
+
+.pink-color {
+	color: #f063b8;
+}
+
+.header {
+	font-size: 3rem;
+}
+
+.texts {
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+.btn {
+	color: white !important;
+	background-color: #9c69e2 !important;
+	border-radius: 30px !important;
+	padding: 10px 30px !important;
+}
+
+.btn-reverse {
+	background-color: white !important;
+	color: #9c69e2 !important;
+	box-shadow: 1px 5px 5px rgba(75, 93, 104, 0.2);
+}
+
+img {
+	width: 100%;
+}
+
+.section-seperate {
+	padding-top: 95px;
+}
+
+.color-bg {
+	width: 97% !important;
+	background: rgba(241, 155, 207, 0.15);
+	border-radius: 50px;
+}

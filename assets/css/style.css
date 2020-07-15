@@ -98,11 +98,15 @@ img {
 
 .body {
 	justify-content: center;
-	min-height: 100vh;
+	min-height: 80vw;
 	display: flex !important;
 	align-items: center !important;
 	background-color: #d2b3fd !important;
 	border-radius: 40px;
+}
+
+.carousel-caption {
+	border-radius: 40px !important;
 }
 
 #demo {

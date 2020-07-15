@@ -98,7 +98,8 @@ img {
 
 .body {
 	justify-content: center;
-	min-height: 80vw;
+	min-height: 90%;
+	padding: 5% 0;
 	display: flex !important;
 	align-items: center !important;
 	background-color: #d2b3fd !important;

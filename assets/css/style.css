@@ -95,3 +95,101 @@ img {
 .card-title {
 	font-size: 1.2rem;
 }
+
+.body {
+	justify-content: center;
+	min-height: 100vh;
+	display: flex !important;
+	align-items: center !important;
+	background-color: #d2b3fd !important;
+	border-radius: 40px;
+}
+
+#demo {
+	background: linear-gradient(
+		112deg,
+		#ffffff 50%,
+		rgb(255, 249, 241) 50%
+	) !important;
+	max-width: 900px;
+	margin: 20px !important;
+}
+
+.carousel-caption {
+	position: initial !important;
+	z-index: 10;
+	padding: 3rem 6rem !important;
+	color: rgba(78, 77, 77, 0.856) !important;
+	text-align: center !important;
+	font-size: 1.2rem !important;
+	font-style: italic !important;
+	font-weight: bold !important;
+	line-height: 2rem !important;
+}
+
+@media (max-width: 767px) {
+	.carousel-caption {
+		position: initial !important;
+		z-index: 10 !important;
+		padding: 2rem 1rem !important;
+		color: rgba(78, 77, 77, 0.856) !important;
+		text-align: center !important;
+		font-size: 0.7rem !important;
+		font-style: italic !important;
+		font-weight: bold !important;
+		line-height: 1.5rem !important;
+	}
+}
+
+.carousel-caption img {
+	width: 6rem !important;
+	border-radius: 5rem !important;
+	margin-top: 2rem !important;
+}
+
+@media (max-width: 767px) {
+	.carousel-caption img {
+		width: 4rem !important;
+		border-radius: 4rem !important;
+		margin-top: 1rem !important;
+	}
+}
+
+#image-caption {
+	font-style: normal !important;
+	font-size: 1rem !important;
+	margin-top: 0.5rem !important;
+}
+
+@media (max-width: 767px) {
+	#image-caption {
+		font-style: normal !important;
+		font-size: 0.6rem !important;
+		margin-top: 0.5rem !important;
+	}
+}
+
+.slider-icon {
+	background-color: rgb(255, 128, 153) !important;
+	padding: 1.4rem !important;
+}
+
+@media (max-width: 767px) {
+	.slider-icon {
+		padding: 0.8rem !important;
+	}
+}
+
+.carousel-control-prev {
+	justify-content: flex-start !important;
+}
+
+.carousel-control-next {
+	justify-content: flex-end !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	transition: none !important;
+	opacity: unset !important;
+}

@@ -257,3 +257,27 @@ img {
 .newsletter-subscribe form .btn:active {
 	transform: translateY(1px);
 }
+
+.btn-default {
+	top: 35%;
+	left: 35%;
+	color: rgb(153, 130, 130);
+	background: transparent;
+}
+
+.img-responsive {
+	text-align: center;
+	width: 50%;
+	margin-top: 0px;
+	box-shadow: aqua;
+}
+
+active {
+	text-align: center;
+}
+
+.modal-content {
+	border-radius: 20px;
+	border: none !important;
+	top: 50px !important;
+}

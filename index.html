@@ -21,7 +21,6 @@
 		/>
 	</head>
 	<body>
-		<!--Main Navigation-->
 		<header>
 			<nav class="pt-4 navbar navbar-expand-lg scrolling-navbar">
 				<div class="container">
@@ -65,8 +64,11 @@
 							</li>
 						</ul>
 						<ul class="pt-3">
-							<button class="btn btn-reverse"
-								>Subscribe Now <span> </span>
+							<button
+								class="btn btn-reverse"
+								data-toggle="modal"
+								data-target=".bs-example-modal-lg"
+								>PREVIEW OUR APP!
 								<i class="fa fa-arrow-right" aria-hidden="true"></i
 							></button>
 						</ul>
@@ -243,60 +245,6 @@
 			</section>
 		</section>
 
-		<section class="container section-seperate">
-			<div class="center"
-				><h2 class="header pb-4">Testimonials</h2>
-				<p class="texts pb-5"
-					>Some of the Users and Clients that said good things about our
-					Services.</p
-				></div
-			>
-		</section>
-
-		<section class="body container mt-5">
-			<div class="container-new">
-				<div id="demo" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="carousel-caption">
-								<p
-									>Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
-									viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
-									aenean nam laoreet nulla. Lorem ipsum, dolor sit amet
-									consectetur adipisicing elit. Qui, sequi.
-								</p>
-								<img src="./assets/images/boy.png" />
-								<div id="image-caption mt-0 "><h3>Shubham Kumar</h3></div>
-								<div id="image-caption mt-0 pt-0">"Frontend Developer"</div>
-							</div>
-						</div>
-
-						<div class="carousel-item">
-							<div class="carousel-caption">
-								<p
-									>Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
-									viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
-									aenean nam laoreet nulla. Lorem ipsum dolor sit amet
-									consectetur adipisicing elit. Nesciunt, ad.</p
-								>
-								<img src="./assets/images/girl.png" class="img-fluid" />
-								<div id="image-caption mt-0 "><h3>Adeola_ui/ux</h3></div>
-								<div id="image-caption mt-0 pt-0">"UI/UX Designer"</div>
-							</div>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#demo" data-slide="prev">
-						<i class="slider-icon fa fa-arrow-left"></i>
-					</a>
-					<a class="carousel-control-next" href="#demo" data-slide="next">
-						<i class="slider-icon fa fa-arrow-right"></i>
-					</a>
-				</div>
-			</div>
-		</section>
-
-		<section class="container section-seperate"> </section>
-
 		<hr />
 
 		<section class="container section-seperate">
@@ -431,6 +379,97 @@
 			</div>
 		</footer>
 
+		<div class="container text-center">
+			<div
+				class="modal fade bs-example-modal-lg"
+				tabindex="-1"
+				role="dialog"
+				aria-labelledby="myLargeModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div
+							id="carousel-example-generic"
+							class="carousel slide"
+							data-ride="carousel"
+						>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<h3 class="mt-4"
+										>Scroll Down to view more<br /><i
+											class="fa fa-arrow-down"
+											aria-hidden="true"
+										></i
+									></h3>
+
+									<img
+										class="img-responsive"
+										src="./assets/images/iphonex.png"
+										alt="..."
+									/>
+								</div>
+								<div class="item">
+									<img
+										class="img-responsive"
+										src="./assets/images/iphone x-1.png"
+										alt="..."
+									/>
+								</div>
+								<div class="item active">
+									<img
+										class="img-responsive"
+										src="./assets/images/iphone x-2.png"
+										alt="..."
+									/>
+								</div>
+								<div class="item active">
+									<img
+										class="img-responsive"
+										src="./assets/images/iphone x-3.png"
+										alt="..."
+									/>
+								</div>
+								<div class="item active">
+									<img
+										class="img-responsive"
+										src="./assets/images/iphone x-4.png"
+										alt="..."
+									/>
+								</div>
+								<div class="item active">
+									<img
+										class="img-responsive"
+										src="./assets/images/iphone x-5.png"
+										alt="..."
+									/>
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a
+								class="left carousel-control"
+								href="#carousel-example-generic"
+								role="button"
+								data-slide="prev"
+							>
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a
+								class="right carousel-control"
+								href="#carousel-example-generic"
+								role="button"
+								data-slide="next"
+							>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -446,5 +485,7 @@
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
 		></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	</body>
 </html>

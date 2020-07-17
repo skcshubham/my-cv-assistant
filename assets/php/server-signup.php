@@ -23,5 +23,5 @@ $db->prepare("
 ")->execute($customer);
 
 // Redirect browser
-header("Location: http://localhost/projects/website/"); 
+header("Location: http://localhost/projects");
 exit();

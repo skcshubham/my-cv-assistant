@@ -1,9 +1,20 @@
+9999;
+}
+
 body {
 	font-family: "Lato", sans-serif;
 }
 
 a {
 	color: black !important;
+}
+
+li {
+	transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+	transform: scale(1.1);
 }
 
 .pink-color {
@@ -254,8 +265,9 @@ img {
 	opacity: 1;
 }
 
-.newsletter-subscribe form .btn:active {
-	transform: translateY(1px);
+.newsletter-subscribe form .btn:active,
+.btn:active {
+	transform: translateY(5px) !important;
 }
 
 .btn-default {
@@ -281,3 +293,31 @@ active {
 	border: none !important;
 	top: 50px !important;
 }
+
+/* Animations */
+
+.to-fro {
+	-webkit-animation: action 1s infinite alternate;
+	animation: action 1s infinite alternate;
+}
+@-webkit-keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+@keyframes action {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+/* ANIMATE CSS */
+
+
+
